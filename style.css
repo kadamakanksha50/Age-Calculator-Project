@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Mooli');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('back.avif')no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.container{
+    width: 700px;
+    height: 350px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+}
+.container h1{
+    color:#1875d1;
+    font-family: Mooli;
+    font-weight: 700;
+}
+.container span{
+    color:#053a5e;
+    font-family: Mooli;
+    font-weight: 900;
+}
+.container .input-field{
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #7ea2c6;
+}
+.input-field input{
+    width: 69%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.input-field button{
+    width: 30%;
+    padding: 10px 20px;
+    background: rgb(228, 227, 227);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 750;
+    transition: all ease 0.4s;
+}
+.input-field button:hover{
+    cursor: pointer;
+    background:#053a5e;
+    color: white;
+}
+.container .action{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+}
+.container .action h2{
+    padding: 8px 15px;
+    background:  #7ea2c6;
+    border-radius: 10px;
+    font-size: 15px;
+}
